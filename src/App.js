@@ -1,7 +1,7 @@
 import "./styles/app.scss";
 import Home from "./components/home";
 import PetList from "./components/petlist";
-import Login from "./componenets/login";
+import Login from "./components/login";
 import { Switch, Route, Link } from "react-router-dom";
 
 function App() {
