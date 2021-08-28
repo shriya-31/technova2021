@@ -11,7 +11,7 @@ import Register from "./components/register";
 import BookSession from "./components/book";
 import { Switch, Route, Link } from "react-router-dom";
 import Meeting from "./components/meeting";
-import dogs from "./database";
+import dogs from "./fakedatabase/dogs.js";
 
 function App() {
   return (
