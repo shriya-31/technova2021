@@ -16,7 +16,7 @@ const dogs = [
     desc: "A super playful little pup who'll instantly melt your heart",
     id: "4223",
     pic: cleo,
-    personality: "Outgoing",
+    personality: "Outgoing, Curious",
     // loc:
   },
   {
@@ -25,7 +25,7 @@ const dogs = [
     desc: "His sole purpose is to catch Perry the Platypus , along with playing fetch to bring a smile to your face.",
     pic: doof,
     id: "9382",
-    personality: "Outgoing",
+    personality: "Outgoing,Adventorous",
     // loc:
   },
   {
@@ -34,15 +34,15 @@ const dogs = [
     desc: "If royalty could be personfied Alaska would be it. Absolutely majestic but also loving.",
     pic: alaska,
     id: "3323",
-    personality: "Loving",
+    personality: "Shy,Gentle",
     // loc:
   },
   {
     name: "Drip Boy",
     breed: "Golden retriever",
-    desc: "Your perfect candidate for a high school baseball mascot. If ur house isn't made of supreme bricks don't talk to me PEASANT",
+    desc: "Your perfect candidate for a high school baseball mascot. If your house isn't made of supreme bricks don't talk to me PEASANT",
     pic: drip,
-    personality: "Reserved",
+    personality: "Sporty,Laidback",
     id: "8273",
   },
   {
@@ -51,7 +51,7 @@ const dogs = [
     desc: "World Famous Doge.",
     pic: doge,
     id: "4942",
-    personality: "Outgoing",
+    personality: "Outgoing, Curious",
     // loc:
   },
   {
@@ -59,7 +59,7 @@ const dogs = [
     breed: "A hybrid of Beagle and Husky",
     pic: starbucks,
     desc: "Clearly got more money than us. Elite. Also skilled enough to lick your entire face till you become mushy.",
-    personality: "Reserved",
+    personality: "Reserved,Laidback",
     id: "3423",
     // loc:
   },
@@ -68,7 +68,7 @@ const dogs = [
     breed: "Golden retriever",
     pic: calvin,
     desc: "Not the brand ambassador of Calvin and Klein,yet a lady's man. After all how could one not smother that cute face with kissess.",
-    personality: "Loving",
+    personality: "Loving,Adventorous",
     id: "2851",
     // loc:
   },
@@ -82,17 +82,17 @@ const dogs = [
   },
   {
     name: "Marly",
-    breed: "",
-    personlity: "Outgoing",
-    desc: "",
+    breed: "Indie",
+    personlity: "Shy,Curious",
+    desc: " This Carmel brown pup is bound to bring a smile to your face with her antics ",
     id: "1221",
     pic: marly,
   },
   {
     name: "Pom",
-    breed: "",
-    personality: "Reserved",
-    desc: "",
+    breed: "Pomerians",
+    personality: "Reserved,Laidback",
+    desc: "Little fluffly furballs, perfect for cuddling and increasing your dopamine levels!",
     id: "2321",
     pic: pom,
   },
