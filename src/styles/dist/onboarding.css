@@ -1,0 +1,7 @@
+.onboarding1 {
+  display: flex;
+  height: 100vh;
+}
+.onboarding1__left {
+  width: 60vw;
+}

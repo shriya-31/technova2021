@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@500&display=swap");
+.dashboard {
+  font-family: "Gothic A1", sans-serif;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dashboard__dogs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  width: 75vw;
+  height: 50vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-inline: 1em;
+}
+.dashboard__nav {
+  margin-top: 2.5em;
+  display: flex;
+  width: 82.5vw;
+  height: 8vh;
+  align-content: center;
+  position: relative;
+}
+.dashboard__nav img {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50px;
+  margin: 0.5em;
+}
+.dashboard__nav i {
+  background-color: rgba(115, 115, 115, 0.2);
+  padding: 0.75em;
+  border-radius: 50px;
+  margin: 0.5em;
+  transition: all 350ms ease-out;
+}
+.dashboard__nav i:hover {
+  background-color: rgba(115, 115, 115, 0.3);
+}
+.dashboard__nav div {
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+.dashboard__inputs {
+  display: flex;
+  margin-top: 1.5em;
+  margin-bottom: 3.5em;
+}
+.dashboard__input {
+  border-radius: 50px;
+  border: none;
+  position: relative;
+  margin-right: 1em;
+}
+.dashboard__input .fa-chevron-down {
+  position: absolute;
+  right: 0.3em;
+  top: 0.25em;
+  transform: scale(0.9);
+}
+.dashboard__input::placeholder {
+  margin-left: 5em;
+}
+
+.card {
+  position: relative;
+}
+.card img {
+  height: 300px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+  transition: all ease-in-out 250ms;
+  margin-left: 1em;
+}
+.card img:hover {
+  box-shadow: -5px 5px 5px 5px rgba(253, 140, 115, 0.5);
+}
+.card__text {
+  position: absolute;
+  left: 1em;
+  bottom: 1.5em;
+  text-decoration: none;
+  font-family: "Gothic A1", sans-serif;
+}
+.card__text h1 {
+  font-size: 24px;
+  margin-inline-start: 1em;
+  color: white;
+  letter-spacing: 3px;
+}
+.card__text p {
+  display: inline;
+  color: white;
+  padding-inline: 0.6em;
+  margin-inline-start: 2em;
+  padding-block: 0.25em;
+  border-radius: 5px;
+  background-color: #fd8c73;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(253, 140, 115, 0.4);
+  transition: all 0.5s ease-in-out;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(253, 140, 115, 0.7);
+}
+
+.input__icon {
+  position: absolute;
+  left: 0.3em;
+  top: 0.15em;
+  transform: scale(0.9);
+}

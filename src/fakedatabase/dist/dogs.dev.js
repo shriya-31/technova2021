@@ -5,9 +5,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = void 0;
 
-var _Cleo = _interopRequireDefault(require("../assets/Cleo.jpeg"));
+var _Cleo = _interopRequireDefault(require("../assets/Cleo.jpg"));
 
-var _DrDoof = _interopRequireDefault(require("../assets/DrDoof.jpeg"));
+var _DrDoof = _interopRequireDefault(require("../assets/DrDoof.jpg"));
 
 var _Alaska = _interopRequireDefault(require("../assets/Alaska.jpeg"));
 
@@ -17,7 +17,7 @@ var _Doge = _interopRequireDefault(require("../assets/Doge.jpeg"));
 
 var _Starbucks = _interopRequireDefault(require("../assets/Starbucks.jpeg"));
 
-var _DoggoWithKisses = _interopRequireDefault(require("../assets/DoggoWithKisses.jpeg"));
+var _DoggoWithKisses = _interopRequireDefault(require("../assets/DoggoWithKisses.jpg"));
 
 var _Tobi = _interopRequireDefault(require("../assets/Tobi.jpg"));
 
@@ -29,80 +29,94 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
 
 var dogs = [{
   name: "Cleo",
-  breed: "Cocker Spaniel",
+  breed: "German Shepard",
   desc: "A super playful little pup who'll instantly melt your heart",
   id: "4223",
   pic: _Cleo["default"],
-  personality: "Outgoing" // loc:
-
+  personality: ["Outgoing", "Curious"],
+  loc: "placeholder",
+  company: "placeholder"
 }, {
-  name: "Dr. Doof",
+  name: "Doof",
   breed: "Chihuhua",
   desc: "His sole purpose is to catch Perry the Platypus , along with playing fetch to bring a smile to your face.",
   pic: _DrDoof["default"],
   id: "9382",
-  personality: "Outgoing" // loc:
-
+  personality: ["Outgoing", "Adventurous"],
+  loc: "placeholder",
+  company: "placeholder"
 }, {
   name: "Alaska",
   breed: "Siberian Husky",
-  desc: "If royalty could be personfied Alaska would be it. Absolutely majestic but also loving.",
+  desc: "If royalty could be personified Alaska would be it. Absolutely majestic but also loving.",
   pic: _Alaska["default"],
   id: "3323",
-  personality: "Loving" // loc:
-
+  personality: ["Shy", "Gentle"],
+  loc: "placeholder",
+  company: "placeholder"
 }, {
-  name: "Drip Boy",
+  name: "Drip",
   breed: "Golden retriever",
-  desc: "Your perfect candidate for a high school baseball mascot. If ur house isn't made of supreme bricks don't talk to me PEASANT",
+  desc: "Your perfect candidate for a high school baseball mascot. If your house isn't made of supreme bricks don't talk to me PEASANT",
   pic: _Drip["default"],
-  personality: "Reserved",
-  id: "8273"
+  personality: ["Sporty", "Laidback"],
+  id: "8273",
+  loc: "placeholder",
+  company: "placeholder"
 }, {
-  name: "Doge.",
+  name: "Doge",
   breed: "Shiba Inu",
   desc: "World Famous Doge.",
   pic: _Doge["default"],
   id: "4942",
-  personality: "Outgoing" // loc:
-
+  personality: ["Outgoing", "Curious"],
+  loc: "placeholder",
+  company: "placeholder"
 }, {
   name: "Starbucks Boy",
   breed: "A hybrid of Beagle and Husky",
   pic: _Starbucks["default"],
   desc: "Clearly got more money than us. Elite. Also skilled enough to lick your entire face till you become mushy.",
-  personality: "Reserved",
-  id: "3423" // loc:
-
+  personality: ["Reserved", "Laidback"],
+  id: "3423",
+  loc: "placeholder",
+  company: "placeholder"
 }, {
   name: "Calvin",
   breed: "Golden retriever",
   pic: _DoggoWithKisses["default"],
   desc: "Not the brand ambassador of Calvin and Klein,yet a lady's man. After all how could one not smother that cute face with kissess.",
-  personality: "Loving",
-  id: "2851" // loc:
-
+  personality: ["Loving", "Adventurous"],
+  id: "2851",
+  loc: "placeholder",
+  company: "placeholder"
 }, {
   name: "Tobi",
   breed: "Shih Tzu",
   desc: "I am a KING, I won't ask for your food--you are expected to give me your food. So.. ig we done now since u always save Best for last. KAMUI- Tobi described in a gist",
-  personality: "Reserved",
+  personality: ["Reserved"],
   id: "7244",
-  pic: _Tobi["default"]
+  pic: _Tobi["default"],
+  loc: "placeholder",
+  company: "placeholder"
 }, {
   name: "Marly",
-  breed: "",
-  personlity: "Outgoing",
-  desc: "",
+  breed: "Indie",
+  personality: ["Shy", "Curious"],
+  desc: " This Caramel brown pup is bound to bring a smile to your face with her antics ",
   id: "1221",
-  pic: _Marly["default"]
+  pic: _Marly["default"],
+  loc: "placeholder",
+  company: "placeholder"
 }, {
-  name: "Pom",
-  breed: "",
-  personality: "Reserved",
-  desc: "",
+  name: "Pom & Rom",
+  breed: "Pomeranian",
+  personality: ["Reserved", "Laidback"],
+  desc: "Little fluffy furballs, perfect for cuddling and increasing your dopamine levels!",
   id: "2321",
-  pic: _Pom["default"]
+  pic: _Pom["default"],
+  loc: "placeholder",
+  company: "placeholder"
 }];
 var _default = dogs;
 exports["default"] = _default;

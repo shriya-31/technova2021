@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@500&display=swap");
+.nav {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-family: "Gothic A1", sans-serif;
+}
+.nav__left {
+  display: flex;
+  align-items: center;
+  margin-inline-start: 1em;
+}
+.nav__left img {
+  margin: 1em;
+  transform: scale(0.85);
+}
+.nav__right {
+  position: absolute;
+  right: 2em;
+  display: flex;
+  align-items: center;
+}
+.nav__right h2 {
+  font-size: 16px;
+  margin: 1em;
+}
+.nav__right div {
+  height: 40px;
+  background-color: rgba(28, 84, 135, 0.8);
+  color: white;
+  border-radius: 5px;
+  padding-inline: 1.2em;
+  margin-inline-start: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+}
+.nav__right div i {
+  padding: 0.2em;
+}
